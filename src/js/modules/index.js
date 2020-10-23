@@ -32,6 +32,8 @@ import {LivePictureInPicture, LivePictureInPictureUI} from 'Modules/LivePictureI
 import {AutoTakeVipPrivilege, AutoTakeVipPrivilegeUI} from 'Modules/autoTakeVipPrivilege';
 import {LiveReplayDownload, LiveReplayDownloadUI} from 'Modules/liveReplayDownload';
 import {DarkMode, DarkModeUI} from "Modules/darkMode";
+//import {PartitionFilter, PartitionFilterUI} from "Modules/partitionFilter";
+import {globalSubPageBug} from "Modules/globalSubPageError";
 
 //let VideoUnblock;
 //try {
@@ -60,6 +62,7 @@ export const Features = {
     QuickSearch,
     VideoHideDanmu,
     LiveChatMode,
+    //PartitionFilter,
     //VideoUnblock,
     ProxyForWebsite,
     CvImages,
@@ -69,6 +72,7 @@ export const Features = {
     LivePictureInPicture,
     AutoTakeVipPrivilege,
     LiveReplayDownload,
+    globalSubPageBug,
 };
 
 export const UIs = {
@@ -93,4 +97,5 @@ export const UIs = {
     AutoTakeVipPrivilegeUI,
     LiveReplayDownloadUI,
     DarkModeUI,
+    //PartitionFilterUI,
 };
