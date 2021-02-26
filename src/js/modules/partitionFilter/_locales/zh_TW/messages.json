@@ -44,6 +44,9 @@
     "partitionFilter_subPage_options_food": {
         "message": "美食"
     },
+    "partitionFilter_subPage_options_animal": {
+        "message": "動物圈"
+    },
     "partitionFilter_subPage_options_kichiku": {
         "message": "鬼畜"
     },

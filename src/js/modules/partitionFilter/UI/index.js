@@ -36,6 +36,7 @@ export class PartitionFilterUI extends UI {
         'information': ['资讯', '資訊'],
         'documentary': ['纪录片', '紀錄片'],
         'food': ['美食'],
+        'animal': ['动物圈', '動物圈'],
     };
 
     kindDOMMap = {};

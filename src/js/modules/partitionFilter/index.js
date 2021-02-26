@@ -84,6 +84,11 @@ export class PartitionFilter extends Feature {
                             on: false,
                         },
                         {
+                            key: 'anime',
+                            title: __("partitionFilter_subPage_options_animal"),
+                            on: false
+                        },
+                        {
                             key: 'kichiku',
                             title: __('partitionFilter_subPage_options_kichiku'),
                             on: false,
